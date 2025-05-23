@@ -248,6 +248,8 @@ echo "$ZSHRC_CONTENT" > /root/.zshrc
 
 chown root:root /root/.zshrc
 
+source /root/.zshrc
+
 echo "Extraindo temas para o terminal..."
 
 if [ -f color-schemes.tar ]; then
