@@ -1,7 +1,9 @@
 #!/bin/bash
 
 echo "Instalando pacotes necessários..."
-apt update && apt install zsh zsh-syntax-highlighting zsh-autosuggestions fonts-firacode gnome-tweaks -y
+apt update
+apt install zsh -y
+apt install zsh-syntax-highlighting zsh-autosuggestions fonts-firacode gnome-tweaks -y
 
 echo "Definindo zsh como shell padrão para todos os usuários..."
 
